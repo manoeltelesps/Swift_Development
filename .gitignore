@@ -1,0 +1,100 @@
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === Xcode ===
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Derived data
+DerivedData/
+build/
+
+# Xcode workspace and schemes
+*.xcworkspace
+*.xcworkspace/xcshareddata/
+*.xcworkspace/xcuserdata/
+xcshareddata/
+xcshareddata/xcschemes/*
+!xcshareddata/xcschemes/*.xcscheme
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcshareddata/xcschemes/*
+!*.xcodeproj/xcshareddata/xcschemes/*.xcscheme
+
+# === SwiftPM ===
+.build/
+.swiftpm/
+Package.resolved
+
+# === CocoaPods ===
+Pods/
+Podfile.lock
+
+# === Carthage ===
+Carthage/Build/
+
+# === Swift Playgrounds ===
+timeline.xctimeline
+playground.xcworkspace
+
+# === Fastlane ===
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# === Archives ===
+*.xcarchive
+
+# === Backup, Logs, Temp ===
+*.moved-aside
+*.bak
+*.backup
+*.swp
+*.tmp
+*.orig
+*.log
+
+# === User-specific ===
+*.env
+*.key
+*.pem
+*.crt
+*.mobileprovision
+*.xcent
+
+# === Preview assets and metadata ===
+.preview-thumbnails/
+*.dataset
+
+# === Tests & Snapshots ===
+__Snapshots__/
+*.result
+*.coverage
+*.testplan
+
+# === Firebase/GoogleService ===
+GoogleService-Info.plist
+
+# === Local configuration ===
+.env.local
+.env.development
+.env.production
