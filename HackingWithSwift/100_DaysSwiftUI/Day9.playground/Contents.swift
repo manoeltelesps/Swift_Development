@@ -87,31 +87,15 @@ let quemvemPrimeiro = numeros.sorted{
 // print(quemvemPrimeiro)
 
 
-/// CHECKPOINT 5
+// MARK: - Checkpoint 5
 
 let luckyNumbers = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]
 
-var arrayPares: [Int] = []
+let resultado = luckyNumbers
+    .filter{!$0.isMultiple(of: 2)} // Não pares
+    .sorted() // Ordem
+    .map{"\($0) é um número da sorte"}
 
-let numerosPares = luckyNumbers.filter {
-    let ehPar = $0.isMultiple(of: 2)
-    
-    if ehPar{
-        arrayPares.append($0)
-    }
-    
-    return ehPar
+for frase in resultado {
+ print(frase)
 }
-
-let esseNumeroSorte =  luckyNumbers.map{ num in
-    
-    var ehImpar = num.isMultiple(of: 2)
-    
-    luckyNumbers.filter(!ehImpar)
-}
-
-print(luckyNumbers.sorted())
-print(arrayPares)
-
-
-

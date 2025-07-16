@@ -34,7 +34,7 @@ var senha = "123456"
 
 do{
     let result = try testarSenha(senha)
-    print("A sua senha é: \(result)")
+//    print("A sua senha é: \(result)")
 }
 catch ErrodeSenha.obvia{
     print("1234? Sério")
@@ -44,4 +44,37 @@ catch ErrodeSenha.pequena{
 }
 catch{
     print("Erro")
+}
+
+
+// MARK: - Checkpoint 4
+
+enum SemPossibilidade: Error {
+    case foraDoLimite
+    case semRaiz
+}
+
+func raizQuadrada(_ num: Int) throws -> Int {
+    if num < 1 || num > 10000 {
+        throw SemPossibilidade.foraDoLimite
+    }
+
+    for i in 1...num/2 {
+        if i * i == num {
+            return i
+        }
+    }
+
+    throw SemPossibilidade.semRaiz
+}
+
+do {
+    let resultado = try raizQuadrada(10000)
+    print("A raiz é \(resultado)")
+} catch SemPossibilidade.foraDoLimite {
+    print("Erro: número fora dos limites")
+} catch SemPossibilidade.semRaiz {
+    print("Erro: sem raiz exata")
+} catch {
+    print("Erro desconhecido")
 }
