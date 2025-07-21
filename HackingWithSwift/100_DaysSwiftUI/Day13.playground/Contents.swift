@@ -94,14 +94,3 @@ struct Office: Construacao{
 var minhacasa = House(comodos: 2, preco: 180000, corretor: "Manoel")
 //minhacasa.informacoes()
 
-//MARK: - Ri do Rybinha
-
-var rybinha: Bool = true
-var amantes: [String] = ["Isolda", "Laura", "Vitoria"]
-var supostanamorada: String = "Catarina"
-
-for amante in amantes{
-    if rybinha {
-        print("Rybinha trai \(supostanamorada) com \(amante)")
-    }
-}
