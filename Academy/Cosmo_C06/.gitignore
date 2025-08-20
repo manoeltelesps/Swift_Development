@@ -1,0 +1,65 @@
+# ========================================
+# SwiftUI / Xcode .gitignore Unificado
+# ========================================
+
+# macOS
+.DS_Store
+
+# Usuário Xcode
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+
+# Derived data e build
+DerivedData/
+build/
+.build/
+
+# Configurações específicas de projeto
+*.hmap
+*.xcworkspace/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcuserdatad/
+
+# App packaging
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftUI preview
+*.preview-thumbnails
+
+# Swift Package Manager
+# Comente/descomente conforme necessidade
+# Packages/
+# Package.pins
+# Package.resolved
+# .swiftpm
+.swiftpm/
+Package.resolved
+
+# CocoaPods (opcional)
+# Pods/
+# Podfile.lock
+
+# Carthage
+# Carthage/Checkouts
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.swp
+*.swo
