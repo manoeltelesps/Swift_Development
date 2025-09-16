@@ -57,3 +57,17 @@ do{
 } catch {
     print("Error")
 }
+
+//Checkpoint
+
+var arrayOptinal: [Int]?
+
+func sorteioOptinal(_ array: [Int]?) -> Int{
+    guard let array = array else {
+        return Int.random(in: 1...100)
+    }
+    
+    return array.randomElement() ?? 0
+}
+
+sorteioOptinal(arrayOptinal)
