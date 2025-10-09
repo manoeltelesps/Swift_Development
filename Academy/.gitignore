@@ -22,3 +22,13 @@ xcuserdata/
 *.swp
 *.tmp
 *.log
+
+# segredos do Cosmo
+Cosmo/Secrets/
+Cosmo/**/APIKeys.plist
+Cosmo/**/GoogleService-Info.plist
+Cosmo/**/Config.xcconfig
+
+# permitir arquivos-exemplo (sem chaves reais)
+!Cosmo/**/Config.example.xcconfig
+!Cosmo/**/APIKeys.example.plist
