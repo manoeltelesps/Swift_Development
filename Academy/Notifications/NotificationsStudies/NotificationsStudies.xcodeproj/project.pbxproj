@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		E869722C2E15C332008553EA /* Cosmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cosmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E832D2232E96EC2600609848 /* NotificationsStudies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationsStudies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E869722E2E15C332008553EA /* Cosmo */ = {
+		E832D2252E96EC2600609848 /* NotificationsStudies */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Cosmo;
+			path = NotificationsStudies;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E86972292E15C332008553EA /* Frameworks */ = {
+		E832D2202E96EC2600609848 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E86972232E15C332008553EA = {
+		E832D21A2E96EC2600609848 = {
 			isa = PBXGroup;
 			children = (
-				E869722E2E15C332008553EA /* Cosmo */,
-				E869722D2E15C332008553EA /* Products */,
+				E832D2252E96EC2600609848 /* NotificationsStudies */,
+				E832D2242E96EC2600609848 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E869722D2E15C332008553EA /* Products */ = {
+		E832D2242E96EC2600609848 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E869722C2E15C332008553EA /* Cosmo.app */,
+				E832D2232E96EC2600609848 /* NotificationsStudies.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E869722B2E15C332008553EA /* Cosmo */ = {
+		E832D2222E96EC2600609848 /* NotificationsStudies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E86972372E15C333008553EA /* Build configuration list for PBXNativeTarget "Cosmo" */;
+			buildConfigurationList = E832D22E2E96EC2700609848 /* Build configuration list for PBXNativeTarget "NotificationsStudies" */;
 			buildPhases = (
-				E86972282E15C332008553EA /* Sources */,
-				E86972292E15C332008553EA /* Frameworks */,
-				E869722A2E15C332008553EA /* Resources */,
+				E832D21F2E96EC2600609848 /* Sources */,
+				E832D2202E96EC2600609848 /* Frameworks */,
+				E832D2212E96EC2600609848 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E869722E2E15C332008553EA /* Cosmo */,
+				E832D2252E96EC2600609848 /* NotificationsStudies */,
 			);
-			name = Cosmo;
+			name = NotificationsStudies;
 			packageProductDependencies = (
 			);
-			productName = Cosmo;
-			productReference = E869722C2E15C332008553EA /* Cosmo.app */;
+			productName = NotificationsStudies;
+			productReference = E832D2232E96EC2600609848 /* NotificationsStudies.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E86972242E15C332008553EA /* Project object */ = {
+		E832D21B2E96EC2600609848 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					E869722B2E15C332008553EA = {
-						CreatedOnToolsVersion = 16.3;
+					E832D2222E96EC2600609848 = {
+						CreatedOnToolsVersion = 26.0.1;
 					};
 				};
 			};
-			buildConfigurationList = E86972272E15C332008553EA /* Build configuration list for PBXProject "Cosmo" */;
+			buildConfigurationList = E832D21E2E96EC2600609848 /* Build configuration list for PBXProject "NotificationsStudies" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = E86972232E15C332008553EA;
+			mainGroup = E832D21A2E96EC2600609848;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E869722D2E15C332008553EA /* Products */;
+			productRefGroup = E832D2242E96EC2600609848 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E869722B2E15C332008553EA /* Cosmo */,
+				E832D2222E96EC2600609848 /* NotificationsStudies */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E869722A2E15C332008553EA /* Resources */ = {
+		E832D2212E96EC2600609848 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E86972282E15C332008553EA /* Sources */ = {
+		E832D21F2E96EC2600609848 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E86972352E15C333008553EA /* Debug */ = {
+		E832D22C2E96EC2700609848 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +178,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -189,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		E86972362E15C333008553EA /* Release */ = {
+		E832D22D2E96EC2700609848 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -246,7 +246,7 @@
 			};
 			name = Release;
 		};
-		E86972382E15C333008553EA /* Debug */ = {
+		E832D22F2E96EC2700609848 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -256,6 +256,7 @@
 				DEVELOPMENT_TEAM = 446CS4MA3A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Notify;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -266,19 +267,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.manoel.Cosmo;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.manoel.NotificationsStudies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E86972392E15C333008553EA /* Release */ = {
+		E832D2302E96EC2700609848 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,6 +289,7 @@
 				DEVELOPMENT_TEAM = 446CS4MA3A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Notify;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -298,40 +300,40 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.manoel.Cosmo;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.manoel.NotificationsStudies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E86972272E15C332008553EA /* Build configuration list for PBXProject "Cosmo" */ = {
+		E832D21E2E96EC2600609848 /* Build configuration list for PBXProject "NotificationsStudies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E86972352E15C333008553EA /* Debug */,
-				E86972362E15C333008553EA /* Release */,
+				E832D22C2E96EC2700609848 /* Debug */,
+				E832D22D2E96EC2700609848 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E86972372E15C333008553EA /* Build configuration list for PBXNativeTarget "Cosmo" */ = {
+		E832D22E2E96EC2700609848 /* Build configuration list for PBXNativeTarget "NotificationsStudies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E86972382E15C333008553EA /* Debug */,
-				E86972392E15C333008553EA /* Release */,
+				E832D22F2E96EC2700609848 /* Debug */,
+				E832D2302E96EC2700609848 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E86972242E15C332008553EA /* Project object */;
+	rootObject = E832D21B2E96EC2600609848 /* Project object */;
 }
