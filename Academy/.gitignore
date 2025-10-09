@@ -1,0 +1,24 @@
+# Arquivos do macOS
+.DS_Store
+
+# Chaves e credenciais
+*.plist
+*.xcconfig
+*.env
+*.key
+*.pem
+*.cer
+*.p12
+Secrets/
+APIKeys/
+Config/
+
+# Cache e build do Xcode
+DerivedData/
+build/
+xcuserdata/
+
+# Arquivos temporários
+*.swp
+*.tmp
+*.log
