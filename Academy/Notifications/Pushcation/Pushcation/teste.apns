@@ -1,0 +1,9 @@
+{
+    "Simulator Target Bundle" :  "br.com.manoel.Pushcation" ,
+    "aps" :  {
+        "alert" :  {
+            "title" :  "Este é um título de notificação de teste" ,
+            "body" :  "Este é um corpo de notificação de teste"
+        }
+    }
+}

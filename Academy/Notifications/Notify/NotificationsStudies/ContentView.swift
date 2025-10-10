@@ -31,6 +31,7 @@ struct ContentView: View {
                 content.subtitle = "Tá funcionando direitinho"
                 content.sound = UNNotificationSound.default
                 
+                
                 //Tentando colocar definir um horario especifico notificacao
                 let comps = Calendar.current.dateComponents([.hour, .minute], from: scheduledAt)
                 
@@ -43,6 +44,11 @@ struct ContentView: View {
                 
                 //Creio que aqui o centro de comando da notificação atualize o momento atual para a condição presente no request.
                 UNUserNotificationCenter.current().add(request)
+            }
+            Button ("Desativar Notificações"){
+                let cancelar = UNUserNotificationCenter.current()
+                
+                cancelar.removeAllPendingNotificationRequests()
             }
         //Uso do Task porque a solicitação de permissão é assincrona, nisso o aplicativo solicita a permissão quando é aberto
         }.task {
