@@ -9,7 +9,7 @@
       }
     ]
   },
-  "identifier" : "77E8DA6D",
+  "identifier" : "CAE9C791",
   "nonRenewingSubscriptions" : [
 
   ],
@@ -32,11 +32,11 @@
   },
   "subscriptionGroups" : [
     {
-      "id" : "E2652505",
+      "id" : "BA70103F",
       "localizations" : [
 
       ],
-      "name" : "Subscriptions",
+      "name" : "Subscription",
       "subscriptions" : [
         {
           "adHocOffers" : [
@@ -48,20 +48,20 @@
           "displayPrice" : "0.99",
           "familyShareable" : false,
           "groupNumber" : 1,
-          "internalID" : "6B164A55",
+          "internalID" : "4C3100FC",
           "introductoryOffer" : null,
           "localizations" : [
             {
-              "description" : "Get the best produtcs on a mon to month basic",
-              "displayName" : "Monthly Subscription",
+              "description" : "Obtenha todos os benefícios por um preço mensal.",
+              "displayName" : "Assinatura Mensal",
               "locale" : "en_US"
             }
           ],
-          "productID" : "manoel.com.br.monthlySubscription",
-          "promotionalImageID" : "BA7F3D99",
+          "productID" : "manoel.com.br.Subs.AssinaturaMensal",
+          "promotionalImageID" : "DB08122B",
           "recurringSubscriptionPeriod" : "P1M",
-          "referenceName" : "Monthly Subscription",
-          "subscriptionGroupID" : "E2652505",
+          "referenceName" : "Assinatura Mensal",
+          "subscriptionGroupID" : "BA70103F",
           "type" : "RecurringSubscription",
           "winbackOffers" : [
 
@@ -77,19 +77,20 @@
           "displayPrice" : "10.99",
           "familyShareable" : false,
           "groupNumber" : 1,
-          "internalID" : "DF18190D",
+          "internalID" : "D29DF699",
           "introductoryOffer" : null,
           "localizations" : [
             {
-              "description" : "Get the best products for the best price",
-              "displayName" : "Annual Subscription",
+              "description" : "Obtenha todos os benefícios por um preço melhor.",
+              "displayName" : "Assinatua Anual",
               "locale" : "en_US"
             }
           ],
-          "productID" : "manoel.br.com.annualSubscription",
+          "productID" : "manoel.com.br.Subs.AssinaturaAnual",
+          "promotionalImageID" : "73ACE0D1",
           "recurringSubscriptionPeriod" : "P1Y",
-          "referenceName" : "AnnualSubscription",
-          "subscriptionGroupID" : "E2652505",
+          "referenceName" : "Assinatura Anual",
+          "subscriptionGroupID" : "BA70103F",
           "type" : "RecurringSubscription",
           "winbackOffers" : [
 

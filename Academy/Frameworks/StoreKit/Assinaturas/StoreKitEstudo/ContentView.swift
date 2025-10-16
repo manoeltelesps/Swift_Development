@@ -35,7 +35,7 @@ struct ContentView: View {
         .sheet(isPresented: $vm.isShowingSubs){
             
             // Forma padrão do Store Kit de demonstrar as opções de assinaturas, ele pega o ID do meu grupo de Assinaturas para demonstrar as opções
-            SubscriptionStoreView(groupID: "E2652505")
+            SubscriptionStoreView(groupID: "BA70103F")
         }
         //A compra é registrada no Apple ID do usuário, é idenpendente do codigo
         .onInAppPurchaseCompletion { product, purchaseResult in
