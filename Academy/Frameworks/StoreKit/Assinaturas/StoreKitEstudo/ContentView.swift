@@ -15,6 +15,7 @@ class StoreManager{
     var purchasedSubscription: Set<String> = []
 }
 
+
 struct ContentView: View {
     
     @State var vm = StoreManager()
@@ -24,7 +25,6 @@ struct ContentView: View {
             Button("Inscrições"){
                 vm.isShowingSubs.toggle()
             }
-            
             
             //Essa lista pega os ids que assinaram e que estam salvos no meu Set, entao tipo o id 1 esta dentro do meu set após ter sido inserido na linha 45, eu vou mostrar ele aqui, obvio que pode ter outras funções coisas que eu posso usar com ele com esse variavel.purchasedSubscription
             List(Array(vm.purchasedSubscription), id: \.self){

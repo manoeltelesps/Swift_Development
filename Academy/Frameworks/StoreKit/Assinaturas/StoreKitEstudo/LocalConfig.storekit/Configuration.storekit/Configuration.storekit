@@ -58,6 +58,7 @@
             }
           ],
           "productID" : "manoel.com.br.monthlySubscription",
+          "promotionalImageID" : "BA7F3D99",
           "recurringSubscriptionPeriod" : "P1M",
           "referenceName" : "Monthly Subscription",
           "subscriptionGroupID" : "E2652505",
