@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Cafe",
+        "description": "A hot brewed coffee with a rich and bold flavor, perfect for starting your day right.",
+        "price": 2.50,
+        "image": "cafe"
+    },
+    {
+        "id": "2",
+        "name": "Espresso",
+        "description": "A strong and concentrated coffee shot, full of aroma and energy.",
+        "price": 2.00,
+        "image": "espresso"
+    },
+    {
+        "id": "3",
+        "name": "Frappe",
+        "description": "A cold, creamy blend of coffee, milk, and ice, a refreshing sweet treat.",
+        "price": 4.75,
+        "image": "frappe"
+    },
+    {
+        "id": "4",
+        "name": "Iced Coffee",
+        "description": "Chilled coffee served over ice, lightly sweetened and incredibly refreshing.",
+        "price": 3.50,
+        "image": "iced_coffee"
+    },
+    {
+        "id": "5",
+        "name": "Kopi Luwak",
+        "description": "Premium Indonesian coffee made from beans digested by civets, smooth and luxurious.",
+        "price": 19.99,
+        "image": "kopi_luwak"
+    },
+    {
+        "id": "6",
+        "name": "Qahwa",
+        "description": "Traditional Arabic coffee, light and spiced with cardamom – served in small portions.",
+        "price": 3.00,
+        "image": "qahwa"
+    }
+]

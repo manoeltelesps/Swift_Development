@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "date": 1744320000,
+        "items": [
+            {
+                "menuItem":
+                {
+                    "id": "1",
+                    "name": "Cafe",
+                    "description": "A hot brewed coffee with a rich and bold flavor, perfect for starting your day right.",
+                    "price": 2.50,
+                    "image": "cafe"
+                },
+                "quantity": 1
+            },
+            {
+                "menuItem":
+                {
+                    "id": "11",
+                    "name": "Pão de Queijo",
+                    "description": "Brazilian cheese bread, crispy outside and chewy inside, made with tapioca flour.",
+                    "price": 3.00,
+                    "image": "pao_de_queijo"
+                },
+                "quantity": 1
+            }
+        ]
+    }
+]

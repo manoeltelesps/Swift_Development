@@ -1,0 +1,44 @@
+[
+    {
+        "id": "7",
+        "name": "Donut",
+        "description": "A soft and sweet fried dough ring, glazed and perfect with your morning coffee.",
+        "price": 1.50,
+        "image": "donut"
+    },
+    {
+        "id": "8",
+        "name": "Hotteok",
+        "description": "Korean pancake filled with brown sugar, cinnamon, and nuts – sweet and chewy.",
+        "price": 2.75,
+        "image": "hotteok"
+    },
+    {
+        "id": "9",
+        "name": "Maqshush",
+        "description": "A Saudi Arabian crispy pancake with date syrup and ghee – a beloved local treat.",
+        "price": 3.25,
+        "image": "maqshush"
+    },
+    {
+        "id": "10",
+        "name": "Panini",
+        "description": "Grilled sandwich with meats, cheese, and veggies on artisan bread – warm and filling.",
+        "price": 6.50,
+        "image": "panini"
+    },
+    {
+        "id": "11",
+        "name": "Pão de Queijo",
+        "description": "Brazilian cheese bread, crispy outside and chewy inside, made with tapioca flour.",
+        "price": 3.00,
+        "image": "pao_de_queijo"
+    },
+    {
+        "id": "12",
+        "name": "Pastel",
+        "description": "Fried Brazilian pastry stuffed with cheese or meat – crispy, hot, and savory.",
+        "price": 3.50,
+        "image": "pastel"
+    }
+]
