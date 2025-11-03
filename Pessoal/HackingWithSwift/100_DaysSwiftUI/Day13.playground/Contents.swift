@@ -57,10 +57,11 @@ extension Veiculo{
 struct Carro: Veiculo {
     var nome: String
     var som: String
+
 }
 
 let hilux = Carro(nome: "Hilux", som: "Vrumm")
-//hilux.barulho()
+hilux.barulho()
 
 //MARK: - Checkpoint 5
 
@@ -92,5 +93,19 @@ struct Office: Construacao{
 }
 
 var minhacasa = House(comodos: 2, preco: 180000, corretor: "Manoel")
-//minhacasa.informacoes()
+minhacasa.informacoes()
 
+// MARK: Academy
+
+protocol A{
+    var id: Int { get }
+}
+
+protocol B{
+    var id: Int { get }
+}
+
+struct Alfabeto: A, B {
+    var id = 1
+}
+                       
