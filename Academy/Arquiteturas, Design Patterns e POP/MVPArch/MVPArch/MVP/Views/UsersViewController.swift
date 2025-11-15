@@ -7,13 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class UsersViewController: UIViewController {
 
+        
+    private let tableView: UI
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "Users"
     }
-
 
 }
 
