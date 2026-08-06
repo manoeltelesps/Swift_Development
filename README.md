@@ -10,7 +10,6 @@ Estudos e projetos em Swift — Apple Developer Academy e projetos pessoais.
 | Pasta | Descrição |
 |---|---|
 | `Academy/Arquiteturas, Design Patterns e POP/` | Design Patterns (Factory, Singleton), arquitetura MVP, protocolos |
-| `Academy/Cosmo/` | App consumindo a API da NASA (APOD e Mars Rover) |
 | `Academy/Frameworks/` | App Intents, Notifications, StoreKit e Widgets |
 | `Academy/Persistencia e API/` | Core Data, SwiftData e requisições de rede |
 | `Academy/StudiesUIKit/` | Estudos de UIKit com testes unitários e de UI |
@@ -18,6 +17,8 @@ Estudos e projetos em Swift — Apple Developer Academy e projetos pessoais.
 | `Academy/Testes_CI&CD/` | Pipelines de CI/CD — Crypto Paper e ToDoMVC |
 | `Pessoal/Contador/` | App contador pessoal |
 | `Pessoal/HackingWithSwift/` | Exercícios do curso 100 Days of SwiftUI |
+
+> 🚀 O projeto **Cosmo** (app consumindo a API da NASA) foi extraído para seu próprio repositório: [manoeltelesps/Cosmo](https://github.com/manoeltelesps/Cosmo)
 
 ---
 
