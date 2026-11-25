@@ -1,0 +1,6 @@
+[submodule "Academy/Testes_CI&CD/C08App"]
+	path = Academy/Testes_CI&CD/C08App
+	url = https://github.com/manoeltelesps/ZooWho.git
+[submodule "Academy/Testes_CI&CD/Crypto Paper/CryptoPaperCICD"]
+	path = Academy/Testes_CI&CD/Crypto Paper/CryptoPaperCICD
+	url = https://github.com/tiagocomth/CryptoPaperCICD.git
